@@ -1,0 +1,41 @@
+.first-screen{
+    width: 1445px;
+    height: 930px;
+    background: #f5f5f5;
+    margin: auto;
+    
+}
+.header{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 150px;
+    &-smart{
+        position: absolute;
+        left:150px;
+        top:92px;
+        width: 149px;
+        height: 55px;
+        border: 1px solid black;
+        span {
+            color:
+        }
+    }
+    &-menu{
+        cursor: pointer;
+        position:absolute;
+        right: 157px;
+        top:91px;
+        // border: 1px solid black;
+           
+
+    }
+}
+.b1, .b2, .b3{
+    width: 34px;
+    height: 4px;
+    background-color:#170F1C;
+    margin: 4px 0;
+    transition: 0.3s;
+}
