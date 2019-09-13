@@ -1,13 +1,72 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><!--Объявление типа документа HTML5 -сообщает валидатору,
+                 какую именно версию (X)HTML вы используете в своей странице.
+                  Этот тег должен всегда находиться в первой строке каждой страницы. -->
+<html lang="en"><!--Определяет язык чего? Что изменится при измененении?-->
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/site.css">
+    <meta charset="UTF-8"> <!--устанавливается кодировка-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Из синтаксиса тега понятно, 
+        что тег указывает браузеру на то, чтобы в качестве ширины области просмотра использовалась
+        ширина экрана устройства (а не значение браузера по умолчанию, которое обычно составляет 980px). 
+        Также в этой записи инициализируется масштаб страницы (initial-scale=1.0).-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"><!--это "лучшая практика", которая "гарантирует,
+                                                         что Internet Explorer использует новейший движок".
+                                                        Вполне можно его не использовать -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap" rel="stylesheet"><!--
+        Подключение шрифтов, необходимых на сайте в КЭШ браузера, путем скачивания их с сервера Google
+        Лучше и надежней подключить шрифты непосредственно в проект (расположить на сервере в папке /css/fonts)
+        через правило @font-face
+    -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!--Подключение Шрифта-Иконок fontawesome-->
+    <link rel="stylesheet" href="css/site.css"><!--Подключение стиле CSS-->
+
     <title>Document</title>
 </head>
 <body>
-    <h1>Привет!</h1>
+    
+        <div class="first-screen">
+            <div class="header">
+                <div class="header-smart">
+                    <div class="header-smart-text">
+                            <span>S</span>mart
+                    </div>
+                </div>
+                <div class="header-menu">
+                    <div class="b1"></div>
+                    <div class="b2"></div>
+                    <div class="b3"></div>
+                </div>
+            </div>
+            <div class="center-title">
+                   <span>Smart</span> Agency Landign Page   
+            </div>
+            <div class="center-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores,
+                    fuga provident. Libero magni quibusdam labore ad iste saepe hic,
+                     maxime qui ipsum tempore beatae, volu tomi ptates
+                     doloremque rerum aspernatur dolorum at!
+            </div>
+            <form action="/" method="POST" class="first-message"><!--Атрибут action определяет url,
+                                                                куда будут отправлены данные из формы
+                                                                атрибут method определяет метод отправки http-->
+                <div class="first-message-title">
+                        <span>Send</span> A Message
+                </div>
+                
+                <input class="first-message-name" type="text" required placeholder="Your Name">
+                <input class="first-message-mail"type="text" required placeholder="Your Email">
+                <input class="first-message-text"type="text" placeholder="Your Message">
+                <input class="first-message-button" type="button" value="Send Message"><i class="fas fa-arrow-right"></i>
+
+            </form>
+        </div>
+
+
+           
+
+    <div class="second-screen">
+
+    </div>
 </body>
 </html>
