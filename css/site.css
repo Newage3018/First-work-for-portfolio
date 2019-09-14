@@ -500,7 +500,7 @@ template {
           justify-content: space-between;
   width: 372px;
   height: 388px;
-  bottom: 0px;
+  bottom: -2px;
   left: 150px;
   border-radius: 2px;
   -webkit-box-shadow: 0 0 57px 0 rgba(20, 20, 21, 0.2);
@@ -563,8 +563,8 @@ template {
   width: 80%;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   word-break: break-word;
-  -ms-flex-preferred-size: 40%;
-      flex-basis: 40%;
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
   opacity: 0.6;
   font-size: 15px;
   font-weight: normal;
@@ -579,8 +579,10 @@ template {
   cursor: pointer;
   border: none;
   background: rgba(252, 103, 68, 0.7);
-  width: 64%;
-  height: 15%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 238px;
+  height: 55px;
   border-radius: 27px;
   -webkit-box-shadow: 1.9px 10.8px 20px 0 rgba(20, 20, 21, 0.08);
           box-shadow: 1.9px 10.8px 20px 0 rgba(20, 20, 21, 0.08);
@@ -591,5 +593,185 @@ template {
 .first-message-button span {
   margin-left: 10px;
   color: #ffffff;
+  font-stretch: ultra-condensed;
+}
+
+.second-screen {
+  position: relative;
+  width: 1445px;
+  height: 773px;
+  background: #ffffff;
+  margin: auto;
+}
+
+.second-screen-title {
+  margin-top: 144px;
+  margin-left: 521px;
+  width: 400px;
+  height: 51px;
+  opacity: 0.8;
+  font-family: 'Open Sans';
+  font-size: 50px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.92;
+  letter-spacing: normal;
+  text-align: center;
+  color: rgba(252, 103, 68, 0.8);
+}
+
+.second-screen-title span {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.second-screen-subtitle {
+  margin-top: 8px;
+  margin-left: 375px;
+  width: 689px;
+  height: 17px;
+  opacity: 0.7;
+  font-family: 'Open Sans';
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: 0.16px;
+  text-align: center;
+  color: rgba(65, 65, 65, 0.7);
+}
+
+.second-screen-list {
+  margin-top: 109px;
+  margin-left: 149px;
+  width: 1140px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card, .card1, .card2, .card3, .card4 {
+  width: 262px;
+  height: 263px;
+  -webkit-box-shadow: 0 0 35px 0 rgba(20, 20, 21, 0.21);
+          box-shadow: 0 0 35px 0 rgba(20, 20, 21, 0.21);
+  position: relative;
+}
+
+.card-button {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 232px;
+  left: 16px;
+  width: 228px;
+  height: 55px;
+  border-radius: 27px;
+  -webkit-box-shadow: 1px 5.9px 14px 0 rgba(20, 20, 21, 0.09);
+          box-shadow: 1px 5.9px 14px 0 rgba(20, 20, 21, 0.09);
+  background-color: #ffffff;
+}
+
+.card-button-text {
+  margin-top: 15px;
+  margin-left: 23px;
+  width: 88px;
+  height: 13px;
+  opacity: 0.8;
+  font-family: 'Open Sans';
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.card-button-plus {
+  margin-left: 43px;
+  margin-top: 11px;
+  font-size: 28px;
+}
+
+.card-logo {
+  margin: 0 auto;
+  margin-top: 53px;
+  width: 43px;
+  height: 44px;
+  opacity: 0.8;
+  font-family: 'FontAwesome';
+  font-size: 50px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.16;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.card-title {
+  margin: 0 auto;
+  margin-top: 23px;
+  width: 145px;
+  height: 15px;
+  opacity: 0.9;
+  font-family: 'Open Sans';
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.1;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.card-subtitle {
+  margin: 0 auto;
+  margin-top: 24px;
+  width: 175px;
+  height: 38px;
+  opacity: 0.75;
+  font-family: 'Open Sans';
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.47;
+  letter-spacing: 0.15px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.card1 {
+  background-color: #4eb2f7;
+}
+
+.card2 {
+  background-color: #c049f8;
+}
+
+.card3 {
+  background-color: #817eff;
+}
+
+.card4 {
+  background-color: #f74770;
+}
+
+.third-screen {
+  position: relative;
+  width: 1445px;
+  height: 1611px;
+  background: #fbfbfb;
+  margin: auto;
 }
 /*# sourceMappingURL=site.css.map */
