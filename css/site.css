@@ -684,7 +684,6 @@ template {
   height: 13px;
   opacity: 0.8;
   font-family: 'Open Sans';
-  font-size: 16px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -771,7 +770,46 @@ template {
   position: relative;
   width: 1445px;
   height: 1611px;
-  background: #fbfbfb;
-  margin: auto;
+  background: #d38f8f;
+  margin: 0 auto;
+  padding-bottom: 144px;
+}
+
+.third-screen-title {
+  margin-top: 144px;
+  margin-left: 521px;
+  width: 400px;
+  height: 51px;
+  opacity: 0.8;
+  font-family: 'Open Sans';
+  font-size: 50px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.92;
+  letter-spacing: normal;
+  text-align: center;
+  color: rgba(252, 103, 68, 0.8);
+}
+
+.third-screen-title span {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.third-screen-subtitle {
+  margin-top: 8px;
+  margin-left: 375px;
+  width: 689px;
+  height: 17px;
+  opacity: 0.7;
+  font-family: 'Open Sans';
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: 0.16px;
+  text-align: center;
+  color: rgba(65, 65, 65, 0.7);
 }
 /*# sourceMappingURL=site.css.map */
