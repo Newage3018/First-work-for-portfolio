@@ -770,9 +770,10 @@ template {
   position: relative;
   width: 1445px;
   height: 1611px;
-  background: #fbfbfb;
+  background: #ffffff;
   margin: 0 auto;
   padding-top: 144px;
+  padding-bottom: 171px;
 }
 
 .third-screen-title {
@@ -832,5 +833,58 @@ template {
   padding: .5em;
   background: #ff5c36;
   text-align: center;
+}
+
+.fourth-screen {
+  position: relative;
+  width: 1445px;
+  background: #ffffff;
+  margin: 0 auto;
+  padding-top: 144px;
+  padding-bottom: 185px;
+}
+
+.fourth-screen-title {
+  margin-left: 521px;
+  width: 478px;
+  height: 39px;
+  opacity: 0.8;
+  font-family: 'Open Sans';
+  font-size: 50px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.92;
+  letter-spacing: normal;
+  text-align: center;
+  color: rgba(252, 103, 68, 0.8);
+}
+
+.fourth-screen-title span {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.fourth-screen-subtitle {
+  margin-top: 20px;
+  margin-left: 400px;
+  width: 650px;
+  height: 17px;
+  opacity: 0.7;
+  font-family: 'Open Sans';
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  text-align: center;
+  color: rgba(65, 65, 65, 0.7);
+}
+
+.fourth-screen-blockClock {
+  width: 1445px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=site.css.map */
