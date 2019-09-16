@@ -602,10 +602,10 @@ template {
   height: 773px;
   background: #ffffff;
   margin: auto;
+  padding-top: 144px;
 }
 
 .second-screen-title {
-  margin-top: 144px;
   margin-left: 521px;
   width: 400px;
   height: 51px;
@@ -770,13 +770,12 @@ template {
   position: relative;
   width: 1445px;
   height: 1611px;
-  background: #d38f8f;
+  background: #fbfbfb;
   margin: 0 auto;
-  padding-bottom: 144px;
+  padding-top: 144px;
 }
 
 .third-screen-title {
-  margin-top: 144px;
   margin-left: 521px;
   width: 400px;
   height: 51px;
@@ -811,5 +810,27 @@ template {
   letter-spacing: 0.16px;
   text-align: center;
   color: rgba(65, 65, 65, 0.7);
+}
+
+.nine-cards {
+  margin: 0 auto;
+  margin-top: 113px;
+  width: 1135px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 29px;
+}
+
+.nine-cards div {
+  width: 360px;
+  height: 358px;
+  font-size: 5vw;
+  padding: .5em;
+  background: #ff5c36;
+  text-align: center;
 }
 /*# sourceMappingURL=site.css.map */
