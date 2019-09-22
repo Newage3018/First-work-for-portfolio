@@ -1,0 +1,9 @@
+@mixin level {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 8px;
+    width: 151px;
+    height: 4px;
+    border-radius: 1.5px;
+    background-color: #817f7e;
+}

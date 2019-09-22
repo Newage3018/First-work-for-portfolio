@@ -722,9 +722,42 @@
                 &-whiteBlock{
                     width: 360px;
                     height: 445px;
+                    padding-top: 178px;
                     box-shadow: 0 0 49px 0 rgba(20, 20, 21, 0.11);
                     background-color: #fff3f0;
+                    &-position{
+                        margin: 0 auto;
+                        width: 69px;
+                        height: 11px;
+                        font-family: 'Open Sans';
+                        font-size: 10.5px;
+                        font-weight: normal;
+                        font-style: normal;
+                        font-stretch: normal;
+                        line-height: 1.86;
+                        letter-spacing: normal;
+                        text-align: center;
+                        color: #000000;
                     }
+                    &-level{
+                        position: relative;
+                        margin: 0 auto;
+                        margin-top: 8px;
+                        width: 151px;
+                        height: 4px;
+                        border-radius: 1.5px;
+                        background-color: #817f7e;
+                    }
+
+                .positionLevel{
+                    position: absolute;
+                    width: 123px;
+                    height: 4px;
+                    border-radius: 1.5px;
+                    background-color: #ff6e47;
+                }
+
+                }
                 
 
             }
