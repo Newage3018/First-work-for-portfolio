@@ -1,4 +1,4 @@
-@mixin level {
+@mixin _level {
     position: relative;
     margin: 0 auto;
     margin-top: 8px;
@@ -7,3 +7,26 @@
     border-radius: 1.5px;
     background-color: #817f7e;
 }
+
+@mixin _real_level ($width) { 
+        position: absolute;
+        width: $width;
+        height: 4px;
+        border-radius: 1.5px;
+        background-color: #ff6e47;
+}
+
+@mixin _title_for_levels{   
+        margin: 0 auto;
+        width: 69px;
+        height: 11px;
+        font-family: 'Open Sans';
+        font-size: 10.5px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.86;
+        letter-spacing: normal;
+        text-align: center;
+        color: #000000;
+}           

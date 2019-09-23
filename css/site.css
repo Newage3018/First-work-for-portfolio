@@ -1024,11 +1024,11 @@ template {
 }
 
 .fifth-screen-title {
-  width: 501px;
+  width: 502px;
   height: 39px;
   opacity: 0.8;
   margin: 0 auto;
-  font-family: OpenSans;
+  font-family: 'Open Sans';
   font-size: 50px;
   font-weight: 600;
   font-style: normal;
@@ -1048,7 +1048,7 @@ template {
   margin: 0 auto;
   margin-top: 18px;
   opacity: 0.5;
-  font-family: OpenSans;
+  font-family: 'Open Sans';
   font-size: 16px;
   font-weight: normal;
   font-style: normal;
@@ -1152,6 +1152,36 @@ template {
   color: #000000;
 }
 
+.fifth-screen .blockTeam-whiteBlock-language {
+  margin: 0 auto;
+  width: 69px;
+  height: 11px;
+  font-family: 'Open Sans';
+  font-size: 10.5px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.86;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+
+.fifth-screen .blockTeam-whiteBlock-communication {
+  margin: 0 auto;
+  width: 69px;
+  height: 11px;
+  font-family: 'Open Sans';
+  font-size: 10.5px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.86;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+
 .fifth-screen .blockTeam-whiteBlock-level {
   position: relative;
   margin: 0 auto;
@@ -1162,11 +1192,83 @@ template {
   background-color: #817f7e;
 }
 
+.fifth-screen .blockTeam-whiteBlock-name {
+  margin: 0 auto;
+  margin-top: 81px;
+  width: 145px;
+  height: 31px;
+  opacity: 0.85;
+  font-family: 'Open Sans';
+  font-size: 30px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.53;
+  letter-spacing: normal;
+  text-align: center;
+  color: rgba(32, 32, 32, 0.85);
+}
+
+.fifth-screen .blockTeam-whiteBlock-doublePosition {
+  margin: 0 auto;
+  margin-top: 5px;
+  width: 113px;
+  height: 17px;
+  opacity: 0.9;
+  font-family: 'Open Sans';
+  font-size: 16.5px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.91;
+  letter-spacing: normal;
+  text-align: center;
+  color: rgba(255, 114, 76, 0.9);
+}
+
 .fifth-screen .blockTeam-whiteBlock .positionLevel {
   position: absolute;
   width: 123px;
   height: 4px;
   border-radius: 1.5px;
   background-color: #ff6e47;
+}
+
+.fifth-screen .blockTeam-whiteBlock .languageLevel {
+  position: absolute;
+  width: 109px;
+  height: 4px;
+  border-radius: 1.5px;
+  background-color: #ff6e47;
+}
+
+.fifth-screen .blockTeam-whiteBlock .communicationLevel {
+  position: absolute;
+  width: 118px;
+  height: 4px;
+  border-radius: 1.5px;
+  background-color: #ff6e47;
+}
+
+.fifth-screen .blockTeam-whiteBlock .socialNets {
+  margin: 0 auto;
+  padding-top: 28px;
+  width: 70px;
+  height: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 12px;
+}
+
+.fifth-screen .blockTeam-whiteBlock .socialNets-twit {
+  cursor: pointer;
+}
+
+.fifth-screen .blockTeam-whiteBlock .socialNets-face {
+  cursor: pointer;
 }
 /*# sourceMappingURL=site.css.map */

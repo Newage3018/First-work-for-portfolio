@@ -626,11 +626,11 @@
             background-color: #fbfbfb;
             padding-top: 141px;
             &-title{
-                width: 501px;
+                width: 502px;
                 height: 39px;
                 opacity: 0.8;
                 margin: 0 auto;
-                font-family: OpenSans;
+                font-family: 'Open Sans';
                 font-size: 50px;
                 font-weight: 600;
                 font-style: normal;
@@ -648,7 +648,7 @@
                     margin: 0 auto;
                     margin-top: 18px;
                     opacity: 0.5;
-                    font-family: OpenSans;
+                    font-family: 'Open Sans';
                     font-size: 16px;
                     font-weight: normal;
                     font-style: normal;
@@ -726,44 +726,85 @@
                     box-shadow: 0 0 49px 0 rgba(20, 20, 21, 0.11);
                     background-color: #fff3f0;
                     &-position{
-                        margin: 0 auto;
-                        width: 69px;
-                        height: 11px;
-                        font-family: 'Open Sans';
-                        font-size: 10.5px;
-                        font-weight: normal;
-                        font-style: normal;
-                        font-stretch: normal;
-                        line-height: 1.86;
-                        letter-spacing: normal;
-                        text-align: center;
-                        color: #000000;
+                        @include _title_for_levels;
+                    }
+                    &-language{
+                        @include _title_for_levels;
+                    }
+                    &-communication{
+                        @include _title_for_levels;
                     }
                     &-level{
-                        position: relative;
-                        margin: 0 auto;
-                        margin-top: 8px;
-                        width: 151px;
-                        height: 4px;
-                        border-radius: 1.5px;
-                        background-color: #817f7e;
+                        @include _level;
                     }
+                    &-name{
+                        margin: 0 auto;
+                        margin-top: 81px;
+                        width: 145px;
+                        height: 31px;
+                        opacity: 0.85;
+                        font-family: 'Open Sans';
+                        font-size: 30px;
+                        font-weight: 600;
+                        font-style: normal;
+                        font-stretch: normal;
+                        line-height: 1.53;
+                        letter-spacing: normal;
+                        text-align: center;
+                        color: rgba(32, 32, 32, 0.85);
+                    }
+                    &-doublePosition{
+                        margin: 0 auto;
+                        margin-top: 5px;
+                        width: 113px;
+                        height: 17px;
+                        opacity: 0.9;
+                        font-family: 'Open Sans';
+                        font-size: 16.5px;
+                        font-weight: 300;
+                        font-style: normal;
+                        font-stretch: normal;
+                        line-height: 2.91;
+                        letter-spacing: normal;
+                        text-align: center;
+                        color: rgba(255, 114, 76, 0.9);
+                    }
+                    
+                    
 
                 .positionLevel{
-                    position: absolute;
-                    width: 123px;
-                    height: 4px;
-                    border-radius: 1.5px;
-                    background-color: #ff6e47;
-                }
+                    @include _real_level(123px);
 
                 }
-                
+                .languageLevel{
+                    @include _real_level(109px);
+
+                }
+                .communicationLevel{
+                    @include _real_level(118px);
+
+                }
+                .socialNets{
+                    margin: 0 auto;
+                    padding-top: 28px;
+                    width: 70px;
+                    height: 16px;
+                    display: flex;
+                    justify-content: space-between;
+                    font-size: 12px;
+                    &-twit{
+                        cursor: pointer;
+                    }
+                    &-face{
+                        cursor: pointer;
+                    }
+                }            
 
             }
 
 
     }
+}
     
     
 
